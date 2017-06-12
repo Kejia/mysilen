@@ -5,7 +5,7 @@ maintainer j.w.kejia
 
 label description="this docker image is used to make a basic (non-gpu) machine learning environment."
 
-label version="0.1.0"
+label version="0.1.1"
 
 run apt update -y && apt install -y aptitude && \
 	aptitude update -y && aptitude upgrade -y && \
